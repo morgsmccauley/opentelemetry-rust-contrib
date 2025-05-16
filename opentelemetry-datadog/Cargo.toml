@@ -27,7 +27,7 @@ intern-std = []
 [dependencies]
 indexmap = "2.0"
 opentelemetry = { workspace = true }
-opentelemetry_sdk = { workspace = true, features = ["trace"] }
+opentelemetry_sdk = { workspace = true, features = ["trace", "rt-tokio"] }
 opentelemetry-http = { workspace = true }
 opentelemetry-semantic-conventions = { workspace = true }
 rmp = "0.8"
